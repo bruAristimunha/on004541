@@ -45,13 +45,13 @@ P5	EEG	µV	0.0	500.0	ElectroEncephaloGram	1000.0	good	n/a
 P3	EEG	µV	0.0	500.0	ElectroEncephaloGram	1000.0	bad	n/a
 P1	EEG	µV	0.0	500.0	ElectroEncephaloGram	1000.0	good	n/a
 Pz	EEG	µV	0.0	500.0	ElectroEncephaloGram	1000.0	good	n/a
-P2	EEG	µV	0.0	500.0	ElectroEncephaloGram	1000.0	good	n/a
+P2	EEG	µV	0.0	500.0	ElectroEncephaloGram	1000.0	bad	n/a
 P4	EEG	µV	0.0	500.0	ElectroEncephaloGram	1000.0	good	n/a
 P6	EEG	µV	0.0	500.0	ElectroEncephaloGram	1000.0	good	n/a
 P8	EEG	µV	0.0	500.0	ElectroEncephaloGram	1000.0	good	n/a
 PO7	EEG	µV	0.0	500.0	ElectroEncephaloGram	1000.0	good	n/a
 PO3	EEG	µV	0.0	500.0	ElectroEncephaloGram	1000.0	good	n/a
-POz	EEG	µV	0.0	500.0	ElectroEncephaloGram	1000.0	good	n/a
+POz	EEG	µV	0.0	500.0	ElectroEncephaloGram	1000.0	bad	n/a
 PO4	EEG	µV	0.0	500.0	ElectroEncephaloGram	1000.0	bad	n/a
 PO8	EEG	µV	0.0	500.0	ElectroEncephaloGram	1000.0	good	n/a
 O1	EEG	µV	0.0	500.0	ElectroEncephaloGram	1000.0	bad	n/a
