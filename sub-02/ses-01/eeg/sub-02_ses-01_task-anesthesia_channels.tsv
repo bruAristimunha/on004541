@@ -3,7 +3,7 @@ Fp1	EEG	µV	0.0	500.0	ElectroEncephaloGram	1000.0	bad	n/a
 Fpz	EEG	µV	0.0	500.0	ElectroEncephaloGram	1000.0	bad	n/a
 Fp2	EEG	µV	0.0	500.0	ElectroEncephaloGram	1000.0	bad	n/a
 AF3	EEG	µV	0.0	500.0	ElectroEncephaloGram	1000.0	good	n/a
-AF4	EEG	µV	0.0	500.0	ElectroEncephaloGram	1000.0	good	n/a
+AF4	EEG	µV	0.0	500.0	ElectroEncephaloGram	1000.0	bad	n/a
 F7	EEG	µV	0.0	500.0	ElectroEncephaloGram	1000.0	bad	n/a
 F5	EEG	µV	0.0	500.0	ElectroEncephaloGram	1000.0	bad	n/a
 F3	EEG	µV	0.0	500.0	ElectroEncephaloGram	1000.0	bad	n/a
@@ -30,7 +30,7 @@ C4	EEG	µV	0.0	500.0	ElectroEncephaloGram	1000.0	bad	n/a
 C6	EEG	µV	0.0	500.0	ElectroEncephaloGram	1000.0	bad	n/a
 T8	EEG	µV	0.0	500.0	ElectroEncephaloGram	1000.0	bad	n/a
 TP7	EEG	µV	0.0	500.0	ElectroEncephaloGram	1000.0	bad	n/a
-CP5	EEG	µV	0.0	500.0	ElectroEncephaloGram	1000.0	good	n/a
+CP5	EEG	µV	0.0	500.0	ElectroEncephaloGram	1000.0	bad	n/a
 CP3	EEG	µV	0.0	500.0	ElectroEncephaloGram	1000.0	bad	n/a
 CP1	EEG	µV	0.0	500.0	ElectroEncephaloGram	1000.0	good	n/a
 CPz	EEG	µV	0.0	500.0	ElectroEncephaloGram	1000.0	bad	n/a
