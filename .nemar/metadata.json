@@ -1,37 +1,94 @@
 {
   "version": "2.0",
-  "dataset_id": "on004541",
-  "source": "openneuro",
-  "source_id": "ds004541",
+  "pipeline_stage": "enriched",
   "title": "Multimodal EEG-fNIRS data from patients undergoing general anesthesia",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Catalina Saini Ferrón": {},
     "Gabriela Vargas González": {},
     "Carlos Valle Araya": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004541.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004541",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004541",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.6.0",
-  "recording_modality": [
-    "eeg",
-    "nirs"
-  ],
-  "datatypes": [
-    "eeg",
-    "nirs"
   ],
   "funding_references": [
     {
       "funder_name": "Departamento de anestesiología UC"
+    },
+    {
+      "funder_name": "Pontificia Universidad Católica de Chile"
     }
   ],
-  "acknowledgements": "We thank Natalia Calderon and Victor Contreras for their help in the data collection. We also thank the patients and their families for their participation in this study."
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg",
+    "nirs"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".md",
+    ".snirf",
+    ".tsv"
+  ],
+  "description": "A multimodal neuroimaging dataset combining simultaneous EEG and functional near-infrared spectroscopy (fNIRS) recordings from patients undergoing general anesthesia. This dataset provides concurrent measurements of electrical brain activity and cerebral hemodynamics during anesthetic induction and maintenance, enabling investigation of anesthesia-induced changes in brain function through complementary neurophysiological modalities.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "fNIRS"
+    },
+    {
+      "term": "general anesthesia"
+    },
+    {
+      "term": "multimodal neuroimaging"
+    },
+    {
+      "term": "brain activity monitoring"
+    },
+    {
+      "term": "cerebral hemodynamics"
+    },
+    {
+      "term": "anesthesia monitoring"
+    },
+    {
+      "term": "consciousness"
+    },
+    {
+      "term": "neurophysiology"
+    }
+  ],
+  "source_hash": "0d89174b9db088674e67f1c44c994d41db9c3be9e51a633bdca4a3d1855f1158"
 }
