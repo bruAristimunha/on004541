@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Multimodal EEG-fNIRS data from patients undergoing general anesthesia",
-  "description": "A multimodal neuroimaging dataset combining simultaneous EEG and functional near-infrared spectroscopy (fNIRS) recordings from patients undergoing general anesthesia. This dataset provides synchronized brain activity measurements across two complementary modalities during anesthetic induction and maintenance, enabling investigation of neural correlates of anesthesia-induced unconsciousness and the relationship between electrophysiological and hemodynamic responses.",
+  "description": "This dataset contains multimodal EEG-fNIRS recordings from patients undergoing general anesthesia. It was collected to study neurophysiological changes associated with anesthetic states, combining electrophysiological and hemodynamic measures. The data are provided in BIDS format to facilitate reuse and reproducible analysis.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -24,10 +24,9 @@
       "term": "multimodal neuroimaging"
     },
     {
-      "term": "brain activity monitoring"
-    },
-    {
-      "term": "consciousness"
+      "term": "Consciousness",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003243"
     }
   ],
   "related_identifiers": [
@@ -37,24 +36,24 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004541",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.21105/joss.01896",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "References"
     },
     {
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "References"
     },
     {
       "identifier": "10.18112/openneuro.ds004541.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004541",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
