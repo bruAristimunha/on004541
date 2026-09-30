@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Multimodal EEG-fNIRS data from patients undergoing general anesthesia",
-  "description": "This dataset contains multimodal EEG-fNIRS recordings from patients undergoing general anesthesia. It was collected to study neurophysiological changes associated with anesthetic states, combining electrophysiological and hemodynamic measures. The data are provided in BIDS format to facilitate reuse and reproducible analysis.",
+  "description": "This dataset contains simultaneous multimodal EEG and functional near-infrared spectroscopy (fNIRS) recordings from patients undergoing general anesthesia. It is organized in BIDS format and supports research on brain activity and hemodynamics during anesthetic administration and changes in consciousness.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -21,12 +21,10 @@
       "term": "general anesthesia"
     },
     {
-      "term": "multimodal neuroimaging"
+      "term": "multimodal recording"
     },
     {
-      "term": "Consciousness",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D003243"
+      "term": "consciousness"
     }
   ],
   "related_identifiers": [
@@ -68,7 +66,7 @@
     "nirs"
   ],
   "sizes": [
-    "2.9 GB (18 files)"
+    "2.69 GB (18 files)"
   ],
   "formats": [
     ".edf",
